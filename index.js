@@ -1,6 +1,6 @@
-//capture user input
-//const betQuantity = betQuantity.querySelector('.betQuantity input');
-//console.log(betQuantity)
+//capture user input - getElementById
+const betQuantity = document.getElementById("betQuantity");
+console.log(betQuantity)
 
 
 
@@ -50,7 +50,11 @@ else {
 }
 
 //return total
-return (total);
+//return (total);
+
+rollButton.innerHTML = "Roll It";
+
+
 
 
 
