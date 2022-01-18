@@ -51,4 +51,17 @@
     border: 1px solid gray;
     border-radius: 10px;  
     font-size:80px;
+    color: black;
+  }
+
+  #betQuantity {
+    background-color: yellow;   
+    height: 50px;
+    width: 80px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 10px;  
+    font-size:80px;
+    color: black;
   }

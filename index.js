@@ -1,3 +1,8 @@
+//capture user input
+//const betQuantity = betQuantity.querySelector('.betQuantity input');
+//console.log(betQuantity)
+
+
 
 //functions getDieRoll1 and getDieRoll2 will return a random number between 1 and 6 
 
@@ -15,8 +20,12 @@ let getDieRoll2 = function() {
   
     };
 
+//firstDie to be displayed in die1
+
 let firstDie = getDieRoll1 ();
 console.log(firstDie);
+
+//secondDie to be displayed in die2
 
 let secondDie = getDieRoll2 ();
 console.log(secondDie);
@@ -28,5 +37,22 @@ console.log(totalMessage);
 
 let total = (firstDie + secondDie);
 console.log(firstDie + secondDie);
+
+
+//win or loose - must compare with user input (not 6)
+
+if(total == 6) {
+    console.log("You win!");
+}
+
+else {
+    console.log("You loose!");
+}
+
+//return total
 return (total);
+
+
+
+
 
