@@ -5,30 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>  
 <body>
+  
+    <background-image>img\rasta.jpg</background-image>
 
     <div id="welcome">
+        
         <img src="img/shisha1.jfif" style="width: 15%">
         <h1>Welcome to Ray's Shisha Lounge</h1>
         <h2>Place your bet</h2> 
         <h5>..and let me take all your money</h5>
-        <td id="input">
-            <input type="number" value="1" min="1" max="12" placeholder="place your bet!" />
-        </td> 
+       
+        <input id="bet" type="number" value="1" min="1" max="12" placeholder="place your bet!"/>
+         
     </div> 
 
-    <div id=gamezone>
+    <div id=gameZone>
         <div id="dies">
             <div id="die1"></div>
             <div id="rollButton">
                 <p class="roll">
-                    <button id="rollIt" class="btn btn-success"></button></p>
+                    <button id="rollIt" class="btn btn-success">ROLL!!</button></p>
             </div>
             <div id="die2"></div>
         </div>
     </div>
 
     
-
+    
+    <audio controls autoplay>
+        <source src="badboys.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>  
     
     
     

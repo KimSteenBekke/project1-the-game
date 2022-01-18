@@ -1,7 +1,41 @@
 //roll the dies
-let button = document.getElementById('rollIt');
-button.onclick = function() {
-console.log('adding an element to the list');
+
+
+let rollDiceButton = document.getElementById("rollIt");
+rollDiceButton.onclick = function() {
+
+let userBet = document.getElementById("bet").value;
+ //firstDie to be displayed in die1
+
+let firstDie = getDieRoll1 ();
+//console.log(firstDie);
+
+//secondDie to be displayed in die2
+
+let secondDie = getDieRoll2 ();
+//console.log(secondDie);
+
+let totalMessage = "total:";
+console.log(totalMessage);
+
+//variable total will return the sum of firstDie and secondDie
+
+let total = (firstDie + secondDie);
+console.log(firstDie + secondDie);
+
+
+//win or loose - must compare with user input (not 6)
+console.log("userbet: "+ userBet);
+if(total === userBet) {
+    console.log("You win!");
+}
+
+else {
+    console.log("You loose!");
+}   
+
+
+
 };
 
 
@@ -22,34 +56,7 @@ let getDieRoll2 = function() {
   
     };
 
-//firstDie to be displayed in die1
 
-let firstDie = getDieRoll1 ();
-console.log(firstDie);
-
-//secondDie to be displayed in die2
-
-let secondDie = getDieRoll2 ();
-console.log(secondDie);
-
-let totalMessage = "total:";
-console.log(totalMessage);
-
-//variable total will return the sum of firstDie and secondDie
-
-let total = (firstDie + secondDie);
-console.log(firstDie + secondDie);
-
-
-//win or loose - must compare with user input (not 6)
-
-if(total == 6) {
-    console.log("You win!");
-}
-
-else {
-    console.log("You loose!");
-}
 
 //return total
 //return (total);
