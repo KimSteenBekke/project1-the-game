@@ -1,12 +1,8 @@
-//capture user input - getElementById
-//const betQuantity = document.getElementById(`input`);
-//console.log(betQuantity)
-
 //roll the dies
-//let button = document.getElementById('rollIt');
-//button.onclick = function() {
-//  console.log('adding an element to the list');
-//};
+let button = document.getElementById('rollIt');
+button.onclick = function() {
+console.log('adding an element to the list');
+};
 
 
 
@@ -60,9 +56,12 @@ else {
 
 //this will write "Roll it!" in the roll button
 
-rollButton.innerHTML = "Roll it!";
+//rollButton.innerHTML = "ROLL!";
 
+//capture user input - getElementById
 
+//const betQuantity = document.getElementById(`input`);
+//console.log(betQuantity)
 
 
 
