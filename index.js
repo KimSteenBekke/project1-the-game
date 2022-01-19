@@ -18,15 +18,15 @@ let rollDiceButton = document.getElementById("rollIt");
 rollDiceButton.onclick = function() {
 
 let userBet = document.getElementById("bet").value;
-console.log(userBet);
+//console.log(userBet);
 
 //firstDie to be displayed in die1
 let firstDie = getDieRoll1 ();
-//console.log(firstDie);
+console.log(firstDie);
 
 //secondDie to be displayed in die2
 let secondDie = getDieRoll2 ();
-//console.log(secondDie);
+console.log(secondDie);
 
 //write "total"
 let totalMessage = "total:";
@@ -34,18 +34,30 @@ let totalMessage = "total:";
 
 //variable total will return the sum of firstDie and secondDie
 let total = (firstDie + secondDie);
+console.log("result:")
 console.log(total);
 
 
 //win or loose - compare total with userBet - SOMETHING WRONG HERE!
 console.log("userbet: "+ userBet);
 if(total != userBet) {
-    console.log("You loose!");
+    //console.log("You loose!");
+    youLoose.innerHTML = "You Loose!"
+    
 }
 
 else {
-  console.log("You win!");
+    function clear() {
+        document.getElementById("youLoose").innerHTML = "";
+    }
+  //console.log("You win!");
+  youWin.innerHTML = "You win!"
+  
 }   
+
+die1.innerHTML=firstDie;
+die2.innerHTML=secondDie;
+
 
 };
 

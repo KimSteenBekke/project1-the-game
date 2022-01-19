@@ -7,9 +7,8 @@
 <body>
   
     <div id=background>
-        <background-image><img class="egypt" src="img/egypt.png">
-        
-            
+        <background-image><img class="egypt" src="img/egypt.png" style="width: 10%">
+                 
         
         </background-image>
 
@@ -24,7 +23,8 @@
         <h5>..and let me take all your money</h5>
        
         <input id="bet" type="number" value="2" min="2" max="12" placeholder="place your bet!"/>
-         
+        <p id="youLoose"></p>
+        <p id="youWin"></p>
     </div> 
 
     <div id=gameZone>
@@ -34,9 +34,14 @@
                 <p class="roll">
                     <button id="rollIt" class="btn btn-success">ROLL!!</button></p>
             </div>
-            <div id="die2"></div>
+           
+            <div id="die2">
+            </div>
         </div>
+        
     </div>
+
+   
 
     
     
