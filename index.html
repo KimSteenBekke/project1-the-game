@@ -1,58 +1,43 @@
 <html>
-<head>
-    <title>Ray's Shisha Lounge</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>  
-<body>
-  
-    <div id=background>
-        <background-image><img class="egypt" src="img/egypt.png" style="width: 10%">
-                 
+    <head>
+        <title>Ray's Shisha Lounge</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>  
+        <body>
         
-        </background-image>
+            <div id="welcome">
+                <img class="shisha1" src="img/shisha1.jfif" style="width: 10%">
+                <h1>Welcome to Ray's Shisha Lounge</h1>
+                <h2>Bet on a number</h2> 
+                <input id="bet" type="number" value="2" min="2" max="12" placeholder="place your bet!" style="background-color: gold; color: brown; font-size: 150%; border-color: brown;" ;/>
+                <h5>..and let me take all your money</h5>
+            </div> 
 
-    </div>
-
-    <div id="welcome">
-        
-        <img class="shisha1" src="img/shisha1.jfif" style="width: 10%">
-       
-        <h1>Welcome to Ray's Shisha Lounge</h1>
-        <h2>Place your bet</h2> 
-        <h5>..and let me take all your money</h5>
-       
-        <input id="bet" type="number" value="2" min="2" max="12" placeholder="place your bet!"/>
-        <p id="youLoose"></p>
-        <p id="youWin"></p>
-    </div> 
-
-    <div id=gameZone>
-        <div id="dies">
-            <div id="die1"></div>
-            <div id="rollButton">
-                <p class="roll">
-                    <button id="rollIt" class="btn btn-success">ROLL!!</button></p>
+            <div id=gameZone>
+                <div id="dies">
+                    <div id="die1"></div>
+                    <div id="result"></div>
+                    <div id="rollButton">
+                        <p class="roll">
+                            <button id="rollIt" style="background-color: gold; color: brown; font-size: 150%; border-color: brown;" ;
+                            class="btn btn-success">ROLL!!            
+                            </button>
+                            <div id="message">
+                            </div>
+                    </div>
+                    <div id="die2"></div>
+                </div>
             </div>
-           
-            <div id="die2">
+
+            <div id="audio">
+                <audio audio id = "myAudio" >
+                    <source src="badboys.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                </audio>
             </div>
-        </div>
-        
-    </div>
 
-   
+            <script src="index.js" defer></script>   
 
-    
-    
-    <!---<audio controls autoplay>
-        <source src="badboys.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>--->  
-    
-    
-    
-    <script src="index.js" defer></script>   
-
-</body>
+        </body>
 </html>
