@@ -8,6 +8,6 @@ The player is asked to place a bet on a certain number between 2 an 12. Pressing
 
 ##### The project is created using HTML, JavaScript, CSS, Visual Studio Code and GitHub.
 
-##### The game can be lanched on desktop browsers following the public link below. No setup is required.
+##### The game can be launched and run on Google Chrome and Microsoft Edge desktop browsers by following the public link below. No installation is required. 
 
 ##### Published at: https://kimsteenbekke.github.io/project1-the-game/
