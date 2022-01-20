@@ -1,6 +1,6 @@
 # project1-the-game
 
-## This repo contains the game "Ray's Shisha Lounge" which is a IronHack Week 3 Project.
+### This repo contains the game "Ray's Shisha Lounge" which is a IronHack Week 3 Project.
 The player is asked to place a bet on a certain number between 2 an 12. Pressing "ROLL!!" will generate two random numbers between 1 and 6, resembling the roll of two dies. Pressing "ROLL!!" wil also start the music. Each number is added into a total that is compared to the player'sser's bet. If the total equals the bet, the player wins and a "Bro, you win!"-message is displayed. If not, the player looses and a "Bro, you loose!"-message is displayed.  
 
 ## Screen layout
