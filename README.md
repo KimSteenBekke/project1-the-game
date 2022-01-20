@@ -6,8 +6,8 @@ The player is asked to place a bet on a certain number between 2 an 12. Pressing
 ## Screen layout
 ![raysshishalounge](https://user-images.githubusercontent.com/65952389/150403511-71e180d0-2606-4f8e-94f5-44ed0e83c683.PNG)
 
-#### The project is created using HTML, JavaScript, CSS, Visual Studio Code and GitHub.
+### The project is created using HTML, JavaScript, CSS, Visual Studio Code and GitHub.
 
-#### The game can be lanched following the public link below:
+### The game can be lanched following the public link below:
 
 Published at: https://kimsteenbekke.github.io/project1-the-game/
