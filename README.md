@@ -10,4 +10,4 @@ The player is asked to place a bet on a certain number between 2 an 12. Pressing
 
 ##### The game can be lanched on desktop browsers following the public link below. No setup is required.
 
-Published at: https://kimsteenbekke.github.io/project1-the-game/
+##### Published at: https://kimsteenbekke.github.io/project1-the-game/
